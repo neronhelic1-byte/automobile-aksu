@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /templates-changelog.html
+Disallow: /templates-licensing.html
+Disallow: /templates-style-guide.html
+Disallow: /checkout.html
+Disallow: /coming-soon.html
+Disallow: /search.html
+
+Sitemap: https://neronhelic1-byte.github.io/automobile-aksu/sitemap.xml
