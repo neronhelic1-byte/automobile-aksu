@@ -2125,7 +2125,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .pages-banner.ankauf {
-  background-image: linear-gradient(#0000004d, #0000004d), linear-gradient(#00000080, #fff0), url("../images/aksu/aksu-hof.jpg");
+  background-image: linear-gradient(#0000004d, #0000004d), linear-gradient(#00000080, #fff0), url("../images/aksu/aksu-hof.webp");
   background-position: 0 0, 0 0, 50%;
   background-size: auto, auto, cover;
 }
@@ -2182,6 +2182,29 @@ textarea.w-input, textarea.w-select {
 
   .contacts-form-row {
     flex-direction: column;
+  }
+}
+
+.home-graphic-heading {
+  color: var(--primary-dark);
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+@media screen and (min-width: 1280px) {
+  .home-graphic-heading {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-graphic-heading {
+    font-size: 34px;
   }
 }
 
@@ -5472,7 +5495,7 @@ blockquote {
 }
 
 .home-banner-section.home-three {
-  background-image: linear-gradient(#0009, #fff0), url("../images/aksu/hero.jpg");
+  background-image: linear-gradient(#0009, #fff0), url("../images/aksu/hero.webp");
   background-position: 0 0, 50% 90%;
   background-size: auto, cover;
   flex-direction: row;
@@ -7014,7 +7037,7 @@ blockquote {
 
 .banner-three-bg-wrapper {
   z-index: 2;
-  background-image: url("../images/aksu/hero.jpg");
+  background-image: url("../images/aksu/hero.webp");
   background-position: 50% 90%;
   background-size: cover;
   justify-content: center;
